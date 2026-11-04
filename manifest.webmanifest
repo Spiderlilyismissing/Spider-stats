@@ -1,0 +1,20 @@
+{
+  "id": "./",
+  "name": "Spider Stats - VALORANT Companion",
+  "short_name": "Spider Stats",
+  "description": "A free community-made VALORANT companion for agents, maps, cosmetics, patch updates, and personal progress.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#101116",
+  "theme_color": "#ff4655",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
