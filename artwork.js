@@ -3,7 +3,7 @@
   const safeAsset = value => {
     try {
       const url = new URL(value, location.href);
-      return url.origin === location.origin && url.pathname.includes('/assets/') ? url.href : '';
+      return url.origin === location.origin && url.pathname.startsWith(new URL('./', location.href).pathname) ? url.href : '';
     } catch { return ''; }
   };
   const setImage = (image, value) => {

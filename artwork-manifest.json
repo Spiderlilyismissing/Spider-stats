@@ -1,328 +1,328 @@
 {
   "agents": {
     "Astra": {
-      "portrait": "./assets/agents/astra/portrait.png",
+      "portrait": "./astra/portrait.png",
       "abilities": {
-        "Gravity Well": "./assets/agents/astra/abilities/gravity-well.png",
-        "Nova Pulse": "./assets/agents/astra/abilities/nova-pulse.png",
-        "Nebula / Dissipate": "./assets/agents/astra/abilities/nebula-dissipate.png",
-        "Cosmic Divide": "./assets/agents/astra/abilities/cosmic-divide.png"
+        "Gravity Well": "./astra/abilities/gravity-well.png",
+        "Nova Pulse": "./astra/abilities/nova-pulse.png",
+        "Nebula / Dissipate": "./astra/abilities/nebula-dissipate.png",
+        "Cosmic Divide": "./astra/abilities/cosmic-divide.png"
       }
     },
     "Breach": {
-      "portrait": "./assets/agents/breach/portrait.png",
+      "portrait": "./breach/portrait.png",
       "abilities": {
-        "Aftershock": "./assets/agents/breach/abilities/aftershock.png",
-        "Flashpoint": "./assets/agents/breach/abilities/flashpoint.png",
-        "Fault Line": "./assets/agents/breach/abilities/fault-line.png",
-        "Rolling Thunder": "./assets/agents/breach/abilities/rolling-thunder.png"
+        "Aftershock": "./breach/abilities/aftershock.png",
+        "Flashpoint": "./breach/abilities/flashpoint.png",
+        "Fault Line": "./breach/abilities/fault-line.png",
+        "Rolling Thunder": "./breach/abilities/rolling-thunder.png"
       }
     },
     "Brimstone": {
-      "portrait": "./assets/agents/brimstone/portrait.png",
+      "portrait": "./brimstone/portrait.png",
       "abilities": {
-        "Stim Beacon": "./assets/agents/brimstone/abilities/stim-beacon.png",
-        "Incendiary": "./assets/agents/brimstone/abilities/incendiary.png",
-        "Sky Smoke": "./assets/agents/brimstone/abilities/sky-smoke.png",
-        "Orbital Strike": "./assets/agents/brimstone/abilities/orbital-strike.png"
+        "Stim Beacon": "./brimstone/abilities/stim-beacon.png",
+        "Incendiary": "./brimstone/abilities/incendiary.png",
+        "Sky Smoke": "./brimstone/abilities/sky-smoke.png",
+        "Orbital Strike": "./brimstone/abilities/orbital-strike.png"
       }
     },
     "Chamber": {
-      "portrait": "./assets/agents/chamber/portrait.png",
+      "portrait": "./chamber/portrait.png",
       "abilities": {
-        "Trademark": "./assets/agents/chamber/abilities/trademark.png",
-        "Headhunter": "./assets/agents/chamber/abilities/headhunter.png",
-        "Rendezvous": "./assets/agents/chamber/abilities/rendezvous.png",
-        "Tour de Force": "./assets/agents/chamber/abilities/tour-de-force.png"
+        "Trademark": "./chamber/abilities/trademark.png",
+        "Headhunter": "./chamber/abilities/headhunter.png",
+        "Rendezvous": "./chamber/abilities/rendezvous.png",
+        "Tour de Force": "./chamber/abilities/tour-de-force.png"
       }
     },
     "Clove": {
-      "portrait": "./assets/agents/clove/portrait.png",
+      "portrait": "./clove/portrait.png",
       "abilities": {
-        "Meddle": "./assets/agents/clove/abilities/meddle.png",
-        "Pick-me-up": "./assets/agents/clove/abilities/pick-me-up.png",
-        "Ruse": "./assets/agents/clove/abilities/ruse.png",
-        "Not Dead Yet": "./assets/agents/clove/abilities/not-dead-yet.png"
+        "Meddle": "./clove/abilities/meddle.png",
+        "Pick-me-up": "./clove/abilities/pick-me-up.png",
+        "Ruse": "./clove/abilities/ruse.png",
+        "Not Dead Yet": "./clove/abilities/not-dead-yet.png"
       }
     },
     "Cypher": {
-      "portrait": "./assets/agents/cypher/portrait.png",
+      "portrait": "./cypher/portrait.png",
       "abilities": {
-        "Cyber Cage": "./assets/agents/cypher/abilities/cyber-cage.png",
-        "Trapwire": "./assets/agents/cypher/abilities/trapwire.png",
-        "Spycam": "./assets/agents/cypher/abilities/spycam.png",
-        "Neural Theft": "./assets/agents/cypher/abilities/neural-theft.png"
+        "Cyber Cage": "./cypher/abilities/cyber-cage.png",
+        "Trapwire": "./cypher/abilities/trapwire.png",
+        "Spycam": "./cypher/abilities/spycam.png",
+        "Neural Theft": "./cypher/abilities/neural-theft.png"
       }
     },
     "Deadlock": {
-      "portrait": "./assets/agents/deadlock/portrait.png",
+      "portrait": "./deadlock/portrait.png",
       "abilities": {
-        "GravNet": "./assets/agents/deadlock/abilities/gravnet.png",
-        "Sonic Sensor": "./assets/agents/deadlock/abilities/sonic-sensor.png",
-        "Barrier Mesh": "./assets/agents/deadlock/abilities/barrier-mesh.png",
-        "Annihilation": "./assets/agents/deadlock/abilities/annihilation.png"
+        "GravNet": "./deadlock/abilities/gravnet.png",
+        "Sonic Sensor": "./deadlock/abilities/sonic-sensor.png",
+        "Barrier Mesh": "./deadlock/abilities/barrier-mesh.png",
+        "Annihilation": "./deadlock/abilities/annihilation.png"
       }
     },
     "Fade": {
-      "portrait": "./assets/agents/fade/portrait.png",
+      "portrait": "./fade/portrait.png",
       "abilities": {
-        "Prowler": "./assets/agents/fade/abilities/prowler.png",
-        "Seize": "./assets/agents/fade/abilities/seize.png",
-        "Haunt": "./assets/agents/fade/abilities/haunt.png",
-        "Nightfall": "./assets/agents/fade/abilities/nightfall.png"
+        "Prowler": "./fade/abilities/prowler.png",
+        "Seize": "./fade/abilities/seize.png",
+        "Haunt": "./fade/abilities/haunt.png",
+        "Nightfall": "./fade/abilities/nightfall.png"
       }
     },
     "Gekko": {
-      "portrait": "./assets/agents/gekko/portrait.png",
+      "portrait": "./gekko/portrait.png",
       "abilities": {
-        "Mosh Pit": "./assets/agents/gekko/abilities/mosh-pit.png",
-        "Wingman": "./assets/agents/gekko/abilities/wingman.png",
-        "Dizzy": "./assets/agents/gekko/abilities/dizzy.png",
-        "Thrash": "./assets/agents/gekko/abilities/thrash.png"
+        "Mosh Pit": "./gekko/abilities/mosh-pit.png",
+        "Wingman": "./gekko/abilities/wingman.png",
+        "Dizzy": "./gekko/abilities/dizzy.png",
+        "Thrash": "./gekko/abilities/thrash.png"
       }
     },
     "Harbor": {
-      "portrait": "./assets/agents/harbor/portrait.png",
+      "portrait": "./harbor/portrait.png",
       "abilities": {
-        "Cove": "./assets/agents/harbor/abilities/cove.png",
-        "High Tide": "./assets/agents/harbor/abilities/high-tide.png",
-        "Reckoning": "./assets/agents/harbor/abilities/reckoning.png"
+        "Cove": "./harbor/abilities/cove.png",
+        "High Tide": "./harbor/abilities/high-tide.png",
+        "Reckoning": "./harbor/abilities/reckoning.png"
       }
     },
     "Iso": {
-      "portrait": "./assets/agents/iso/portrait.png",
+      "portrait": "./iso/portrait.png",
       "abilities": {
-        "Contingency": "./assets/agents/iso/abilities/contingency.png",
-        "Undercut": "./assets/agents/iso/abilities/undercut.png",
-        "Double Tap": "./assets/agents/iso/abilities/double-tap.png",
-        "Kill Contract": "./assets/agents/iso/abilities/kill-contract.png"
+        "Contingency": "./iso/abilities/contingency.png",
+        "Undercut": "./iso/abilities/undercut.png",
+        "Double Tap": "./iso/abilities/double-tap.png",
+        "Kill Contract": "./iso/abilities/kill-contract.png"
       }
     },
     "Jett": {
-      "portrait": "./assets/agents/jett/portrait.png",
+      "portrait": "./jett/portrait.png",
       "abilities": {
-        "Cloudburst": "./assets/agents/jett/abilities/cloudburst.png",
-        "Updraft": "./assets/agents/jett/abilities/updraft.png",
-        "Tailwind": "./assets/agents/jett/abilities/tailwind.png",
-        "Blade Storm": "./assets/agents/jett/abilities/blade-storm.png"
+        "Cloudburst": "./jett/abilities/cloudburst.png",
+        "Updraft": "./jett/abilities/updraft.png",
+        "Tailwind": "./jett/abilities/tailwind.png",
+        "Blade Storm": "./jett/abilities/blade-storm.png"
       }
     },
     "KAY/O": {
-      "portrait": "./assets/agents/kay-o/portrait.png",
+      "portrait": "./kay-o/portrait.png",
       "abilities": {
-        "FRAG/ment": "./assets/agents/kay-o/abilities/frag-ment.png",
-        "FLASH/drive": "./assets/agents/kay-o/abilities/flash-drive.png",
-        "ZERO/point": "./assets/agents/kay-o/abilities/zero-point.png",
-        "NULL/cmd": "./assets/agents/kay-o/abilities/null-cmd.png"
+        "FRAG/ment": "./kay-o/abilities/frag-ment.png",
+        "FLASH/drive": "./kay-o/abilities/flash-drive.png",
+        "ZERO/point": "./kay-o/abilities/zero-point.png",
+        "NULL/cmd": "./kay-o/abilities/null-cmd.png"
       }
     },
     "Killjoy": {
-      "portrait": "./assets/agents/killjoy/portrait.png",
+      "portrait": "./killjoy/portrait.png",
       "abilities": {
-        "Nanoswarm": "./assets/agents/killjoy/abilities/nanoswarm.png",
-        "Alarmbot": "./assets/agents/killjoy/abilities/alarmbot.png",
-        "Turret": "./assets/agents/killjoy/abilities/turret.png",
-        "Lockdown": "./assets/agents/killjoy/abilities/lockdown.png"
+        "Nanoswarm": "./killjoy/abilities/nanoswarm.png",
+        "Alarmbot": "./killjoy/abilities/alarmbot.png",
+        "Turret": "./killjoy/abilities/turret.png",
+        "Lockdown": "./killjoy/abilities/lockdown.png"
       }
     },
     "Miks": {
-      "portrait": "./assets/agents/miks/portrait.png",
+      "portrait": "./miks/portrait.png",
       "abilities": {
-        "Harmonize": "./assets/agents/miks/abilities/harmonize.png",
-        "M-Pulse": "./assets/agents/miks/abilities/m-pulse.png",
-        "Waveform": "./assets/agents/miks/abilities/waveform.png",
-        "Bassquake": "./assets/agents/miks/abilities/bassquake.png"
+        "Harmonize": "./miks/abilities/harmonize.png",
+        "M-Pulse": "./miks/abilities/m-pulse.png",
+        "Waveform": "./miks/abilities/waveform.png",
+        "Bassquake": "./miks/abilities/bassquake.png"
       }
     },
     "Neon": {
-      "portrait": "./assets/agents/neon/portrait.png",
+      "portrait": "./neon/portrait.png",
       "abilities": {
-        "Fast Lane": "./assets/agents/neon/abilities/fast-lane.png",
-        "Relay Bolt": "./assets/agents/neon/abilities/relay-bolt.png",
-        "High Gear": "./assets/agents/neon/abilities/high-gear.png",
-        "Overdrive": "./assets/agents/neon/abilities/overdrive.png"
+        "Fast Lane": "./neon/abilities/fast-lane.png",
+        "Relay Bolt": "./neon/abilities/relay-bolt.png",
+        "High Gear": "./neon/abilities/high-gear.png",
+        "Overdrive": "./neon/abilities/overdrive.png"
       }
     },
     "Omen": {
-      "portrait": "./assets/agents/omen/portrait.png",
+      "portrait": "./omen/portrait.png",
       "abilities": {
-        "Shrouded Step": "./assets/agents/omen/abilities/shrouded-step.png",
-        "Paranoia": "./assets/agents/omen/abilities/paranoia.png",
-        "Dark Cover": "./assets/agents/omen/abilities/dark-cover.png",
-        "From the Shadows": "./assets/agents/omen/abilities/from-the-shadows.png"
+        "Shrouded Step": "./omen/abilities/shrouded-step.png",
+        "Paranoia": "./omen/abilities/paranoia.png",
+        "Dark Cover": "./omen/abilities/dark-cover.png",
+        "From the Shadows": "./omen/abilities/from-the-shadows.png"
       }
     },
     "Phoenix": {
-      "portrait": "./assets/agents/phoenix/portrait.png",
+      "portrait": "./phoenix/portrait.png",
       "abilities": {
-        "Blaze": "./assets/agents/phoenix/abilities/blaze.png",
-        "Curveball": "./assets/agents/phoenix/abilities/curveball.png",
-        "Hot Hands": "./assets/agents/phoenix/abilities/hot-hands.png",
-        "Run it Back": "./assets/agents/phoenix/abilities/run-it-back.png"
+        "Blaze": "./phoenix/abilities/blaze.png",
+        "Curveball": "./phoenix/abilities/curveball.png",
+        "Hot Hands": "./phoenix/abilities/hot-hands.png",
+        "Run it Back": "./phoenix/abilities/run-it-back.png"
       }
     },
     "Raze": {
-      "portrait": "./assets/agents/raze/portrait.png",
+      "portrait": "./raze/portrait.png",
       "abilities": {
-        "Boom Bot": "./assets/agents/raze/abilities/boom-bot.png",
-        "Blast Pack": "./assets/agents/raze/abilities/blast-pack.png",
-        "Paint Shells": "./assets/agents/raze/abilities/paint-shells.png",
-        "Showstopper": "./assets/agents/raze/abilities/showstopper.png"
+        "Boom Bot": "./raze/abilities/boom-bot.png",
+        "Blast Pack": "./raze/abilities/blast-pack.png",
+        "Paint Shells": "./raze/abilities/paint-shells.png",
+        "Showstopper": "./raze/abilities/showstopper.png"
       }
     },
     "Reyna": {
-      "portrait": "./assets/agents/reyna/portrait.png",
+      "portrait": "./reyna/portrait.png",
       "abilities": {
-        "Leer": "./assets/agents/reyna/abilities/leer.png",
-        "Devour": "./assets/agents/reyna/abilities/devour.png",
-        "Dismiss": "./assets/agents/reyna/abilities/dismiss.png",
-        "Empress": "./assets/agents/reyna/abilities/empress.png"
+        "Leer": "./reyna/abilities/leer.png",
+        "Devour": "./reyna/abilities/devour.png",
+        "Dismiss": "./reyna/abilities/dismiss.png",
+        "Empress": "./reyna/abilities/empress.png"
       }
     },
     "Sage": {
-      "portrait": "./assets/agents/sage/portrait.png",
+      "portrait": "./sage/portrait.png",
       "abilities": {
-        "Barrier Orb": "./assets/agents/sage/abilities/barrier-orb.png",
-        "Slow Orb": "./assets/agents/sage/abilities/slow-orb.png",
-        "Healing Orb": "./assets/agents/sage/abilities/healing-orb.png",
-        "Resurrection": "./assets/agents/sage/abilities/resurrection.png"
+        "Barrier Orb": "./sage/abilities/barrier-orb.png",
+        "Slow Orb": "./sage/abilities/slow-orb.png",
+        "Healing Orb": "./sage/abilities/healing-orb.png",
+        "Resurrection": "./sage/abilities/resurrection.png"
       }
     },
     "Skye": {
-      "portrait": "./assets/agents/skye/portrait.png",
+      "portrait": "./skye/portrait.png",
       "abilities": {
-        "Trailblazer": "./assets/agents/skye/abilities/trailblazer.png",
-        "Guiding Light": "./assets/agents/skye/abilities/guiding-light.png",
-        "Regrowth": "./assets/agents/skye/abilities/regrowth.png",
-        "Seekers": "./assets/agents/skye/abilities/seekers.png"
+        "Trailblazer": "./skye/abilities/trailblazer.png",
+        "Guiding Light": "./skye/abilities/guiding-light.png",
+        "Regrowth": "./skye/abilities/regrowth.png",
+        "Seekers": "./skye/abilities/seekers.png"
       }
     },
     "Sova": {
-      "portrait": "./assets/agents/sova/portrait.png",
+      "portrait": "./sova/portrait.png",
       "abilities": {
-        "Owl Drone": "./assets/agents/sova/abilities/owl-drone.png",
-        "Shock Bolt": "./assets/agents/sova/abilities/shock-bolt.png",
-        "Recon Bolt": "./assets/agents/sova/abilities/recon-bolt.png",
-        "Hunterâ€™s Fury": "./assets/agents/sova/abilities/hunter-s-fury.png"
+        "Owl Drone": "./sova/abilities/owl-drone.png",
+        "Shock Bolt": "./sova/abilities/shock-bolt.png",
+        "Recon Bolt": "./sova/abilities/recon-bolt.png",
+        "Hunterâ€™s Fury": "./sova/abilities/hunter-s-fury.png"
       }
     },
     "Tejo": {
-      "portrait": "./assets/agents/tejo/portrait.png",
+      "portrait": "./tejo/portrait.png",
       "abilities": {
-        "Stealth Drone": "./assets/agents/tejo/abilities/stealth-drone.png",
-        "Special Delivery": "./assets/agents/tejo/abilities/special-delivery.png",
-        "Guided Salvo": "./assets/agents/tejo/abilities/guided-salvo.png",
-        "Armageddon": "./assets/agents/tejo/abilities/armageddon.png"
+        "Stealth Drone": "./tejo/abilities/stealth-drone.png",
+        "Special Delivery": "./tejo/abilities/special-delivery.png",
+        "Guided Salvo": "./tejo/abilities/guided-salvo.png",
+        "Armageddon": "./tejo/abilities/armageddon.png"
       }
     },
     "Veto": {
-      "portrait": "./assets/agents/veto/portrait.png",
+      "portrait": "./veto/portrait.png",
       "abilities": {
-        "Chokehold": "./assets/agents/veto/abilities/chokehold.png",
-        "Crosscut": "./assets/agents/veto/abilities/crosscut.png",
-        "Interceptor": "./assets/agents/veto/abilities/interceptor.png",
-        "Evolution": "./assets/agents/veto/abilities/evolution.png"
+        "Chokehold": "./veto/abilities/chokehold.png",
+        "Crosscut": "./veto/abilities/crosscut.png",
+        "Interceptor": "./veto/abilities/interceptor.png",
+        "Evolution": "./veto/abilities/evolution.png"
       }
     },
     "Viper": {
-      "portrait": "./assets/agents/viper/portrait.png",
+      "portrait": "./viper/portrait.png",
       "abilities": {
-        "Snake Bite": "./assets/agents/viper/abilities/snake-bite.png",
-        "Poison Cloud": "./assets/agents/viper/abilities/poison-cloud.png",
-        "Toxic Screen": "./assets/agents/viper/abilities/toxic-screen.png",
-        "Viperâ€™s Pit": "./assets/agents/viper/abilities/viper-s-pit.png"
+        "Snake Bite": "./viper/abilities/snake-bite.png",
+        "Poison Cloud": "./viper/abilities/poison-cloud.png",
+        "Toxic Screen": "./viper/abilities/toxic-screen.png",
+        "Viperâ€™s Pit": "./viper/abilities/viper-s-pit.png"
       }
     },
     "Vyse": {
-      "portrait": "./assets/agents/vyse/portrait.png",
+      "portrait": "./vyse/portrait.png",
       "abilities": {
-        "Razorvine": "./assets/agents/vyse/abilities/razorvine.png",
-        "Shear": "./assets/agents/vyse/abilities/shear.png",
-        "Arc Rose": "./assets/agents/vyse/abilities/arc-rose.png",
-        "Steel Garden": "./assets/agents/vyse/abilities/steel-garden.png"
+        "Razorvine": "./vyse/abilities/razorvine.png",
+        "Shear": "./vyse/abilities/shear.png",
+        "Arc Rose": "./vyse/abilities/arc-rose.png",
+        "Steel Garden": "./vyse/abilities/steel-garden.png"
       }
     },
     "Waylay": {
-      "portrait": "./assets/agents/waylay/portrait.png",
+      "portrait": "./waylay/portrait.png",
       "abilities": {
-        "Saturate": "./assets/agents/waylay/abilities/saturate.png",
-        "Lightspeed": "./assets/agents/waylay/abilities/lightspeed.png",
-        "Refract": "./assets/agents/waylay/abilities/refract.png",
-        "Convergent Paths": "./assets/agents/waylay/abilities/convergent-paths.png"
+        "Saturate": "./waylay/abilities/saturate.png",
+        "Lightspeed": "./waylay/abilities/lightspeed.png",
+        "Refract": "./waylay/abilities/refract.png",
+        "Convergent Paths": "./waylay/abilities/convergent-paths.png"
       }
     },
     "Yoru": {
-      "portrait": "./assets/agents/yoru/portrait.png",
+      "portrait": "./yoru/portrait.png",
       "abilities": {
-        "Fakeout": "./assets/agents/yoru/abilities/fakeout.png",
-        "Blindside": "./assets/agents/yoru/abilities/blindside.png",
-        "Gatecrash": "./assets/agents/yoru/abilities/gatecrash.png",
-        "Dimensional Drift": "./assets/agents/yoru/abilities/dimensional-drift.png"
+        "Fakeout": "./yoru/abilities/fakeout.png",
+        "Blindside": "./yoru/abilities/blindside.png",
+        "Gatecrash": "./yoru/abilities/gatecrash.png",
+        "Dimensional Drift": "./yoru/abilities/dimensional-drift.png"
       }
     },
     "Hush": {
-      "portrait": "./assets/agents/hush/portrait.png",
+      "portrait": "./hush/portrait.png",
       "abilities": {
-        "Telekinesis (passive)": "./assets/agents/hush/abilities/telekinesis.png",
-        "Displacement": "./assets/agents/hush/abilities/displacement.png",
-        "Flashbulb": "./assets/agents/hush/abilities/flashbulb.png",
-        "Flow": "./assets/agents/hush/abilities/flow.png",
-        "Suspension": "./assets/agents/hush/abilities/suspension.png"
+        "Telekinesis (passive)": "./hush/abilities/telekinesis.png",
+        "Displacement": "./hush/abilities/displacement.png",
+        "Flashbulb": "./hush/abilities/flashbulb.png",
+        "Flow": "./hush/abilities/flow.png",
+        "Suspension": "./hush/abilities/suspension.png"
       }
     }
   },
   "maps": {
     "Abyss": {
-      "splash": "./assets/maps/abyss/splash.png",
-      "minimap": "./assets/maps/abyss/minimap.png"
+      "splash": "./abyss/splash.png",
+      "minimap": "./abyss/minimap.png"
     },
     "Ascent": {
-      "splash": "./assets/maps/ascent/splash.png",
-      "minimap": "./assets/maps/ascent/minimap.png"
+      "splash": "./ascent/splash.png",
+      "minimap": "./ascent/minimap.png"
     },
     "Bind": {
-      "splash": "./assets/maps/bind/splash.png",
-      "minimap": "./assets/maps/bind/minimap.png"
+      "splash": "./bind/splash.png",
+      "minimap": "./bind/minimap.png"
     },
     "Breeze": {
-      "splash": "./assets/maps/breeze/splash.png",
-      "minimap": "./assets/maps/breeze/minimap.png"
+      "splash": "./breeze/splash.png",
+      "minimap": "./breeze/minimap.png"
     },
     "Corrode": {
-      "splash": "./assets/maps/corrode/splash.png",
-      "minimap": "./assets/maps/corrode/minimap.png"
+      "splash": "./corrode/splash.png",
+      "minimap": "./corrode/minimap.png"
     },
     "Fracture": {
-      "splash": "./assets/maps/fracture/splash.png",
-      "minimap": "./assets/maps/fracture/minimap.png"
+      "splash": "./fracture/splash.png",
+      "minimap": "./fracture/minimap.png"
     },
     "Haven": {
-      "splash": "./assets/maps/haven/splash.png",
-      "minimap": "./assets/maps/haven/minimap.png"
+      "splash": "./haven/splash.png",
+      "minimap": "./haven/minimap.png"
     },
     "Icebox": {
-      "splash": "./assets/maps/icebox/splash.png",
-      "minimap": "./assets/maps/icebox/minimap.png"
+      "splash": "./icebox/splash.png",
+      "minimap": "./icebox/minimap.png"
     },
     "Lotus": {
-      "splash": "./assets/maps/lotus/splash.png",
-      "minimap": "./assets/maps/lotus/minimap.png"
+      "splash": "./lotus/splash.png",
+      "minimap": "./lotus/minimap.png"
     },
     "Pearl": {
-      "splash": "./assets/maps/pearl/splash.png",
-      "minimap": "./assets/maps/pearl/minimap.png"
+      "splash": "./pearl/splash.png",
+      "minimap": "./pearl/minimap.png"
     },
     "Split": {
-      "splash": "./assets/maps/split/splash.png",
-      "minimap": "./assets/maps/split/minimap.png"
+      "splash": "./split/splash.png",
+      "minimap": "./split/minimap.png"
     },
     "Sunset": {
-      "splash": "./assets/maps/sunset/splash.png",
-      "minimap": "./assets/maps/sunset/minimap.png"
+      "splash": "./sunset/splash.png",
+      "minimap": "./sunset/minimap.png"
     },
     "Summit": {
-      "splash": "./assets/maps/summit/splash.png",
-      "minimap": "./assets/maps/summit/minimap.png"
+      "splash": "./summit/splash.png",
+      "minimap": "./summit/minimap.png"
     }
   }
 }

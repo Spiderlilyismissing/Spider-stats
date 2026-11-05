@@ -1,4 +1,4 @@
-const CACHE_NAME = 'spider-shell-v37';
+const CACHE_NAME = 'spider-shell-v38';
 const APP_SHELL = ['./', './index.html', './styles.css', './game-data.js', './rank-art.js', './app.js', './artwork.js', './spider-features.js', './collection-catalog.json', './artwork-manifest.json', './manifest.webmanifest', './icon.svg', './spider-logo.svg'];
 
 self.addEventListener('install', event => {
