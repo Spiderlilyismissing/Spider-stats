@@ -1,0 +1,16 @@
+SPIDER STATS — CINEMATIC REDESIGN
+
+This ZIP contains the entire site, including images, not just the four code files.
+
+1. Extract the ZIP to a NEW folder on your computer. Do not overwrite your live website yet.
+2. Open that extracted folder in Visual Studio Code.
+3. Right-click index.html and choose Open with Live Server.
+4. Check the home dashboard, Agents, Maps, Collections, Inventory, Tracker, and phone-size layout.
+5. If you like it, open GitHub Desktop and select your design-upgrade branch.
+6. Back up the repository folder, then copy the redesigned site files into the repository folder.
+7. Review changed files in GitHub Desktop, commit on design-upgrade, and push that branch.
+8. Only merge into main AFTER you have tested everything.
+
+IMPORTANT: Your saved collections and match log are stored in the browser, not inside the ZIP. This redesign does not change the keys spiderstats-owned-v1 or after-tracker. Do not clear site data or uninstall the installed app.
+
+This is a functional CSS/HTML/JS interpretation of the supplied reference image using the artwork bundled in the uploaded website. It is not a pixel-perfect copy of the reference image.

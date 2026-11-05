@@ -1,0 +1,15 @@
+SPIDER STATS — READABILITY UPDATE
+
+Larger system fonts across every section, no text glow, calmer neon accents,
+and a close-up Hush banner using the original supplied artwork.
+Existing JavaScript, features and data are retained.
+
+1. Extract this ZIP (do not upload the ZIP itself to GitHub).
+2. Open your Spider-stats repository and select your design-update branch.
+3. Upload the contents of this folder into the repository root, where index.html is.
+   Keep all image folders and their names exactly as they are.
+4. Commit the changes. Open index.html using your existing local server to preview.
+5. When satisfied, merge design-update into the branch used by GitHub Pages.
+6. Refresh the website. If the old design stays, close its tabs and reopen it.
+
+This update changes presentation only; it does not fetch newer game data.
