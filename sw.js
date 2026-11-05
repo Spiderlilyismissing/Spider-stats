@@ -1,44 +1,58 @@
-const CACHE_NAME = 'spider-shell-v38';
-const APP_SHELL = ['./', './index.html', './styles.css', './game-data.js', './rank-art.js', './app.js', './artwork.js', './spider-features.js', './collection-catalog.json', './artwork-manifest.json', './manifest.webmanifest', './icon.svg', './spider-logo.svg'];
+/* Spider Stats: network-first app files, cached images and offline fallback. */
+const CACHE_NAME = 'spider-stats-v41';
+const CACHE_PREFIXES = ['spider-shell-', 'spider-stats-'];
+const OFFLINE_FILES = ['./index.html', './styles.css', './game-data.js', './rank-art.js', './app.js', './artwork.js', './spider-features.js', './collection-catalog.json', './artwork-manifest.json', './manifest.webmanifest', './icon.svg', './spider-logo.svg'];
 
 self.addEventListener('install', event => {
-  event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_SHELL)));
-  self.skipWaiting();
+  event.waitUntil((async () => {
+    const cache = await caches.open(CACHE_NAME);
+    await Promise.allSettled(OFFLINE_FILES.map(async file => {
+      const response = await fetch(new Request(file, { cache: 'no-store' }));
+      if (response.ok) await cache.put(file, response);
+    }));
+    await self.skipWaiting();
+  })());
 });
 
 self.addEventListener('activate', event => {
-  event.waitUntil(
-    caches.keys().then(keys => Promise.all(keys.filter(key => key !== CACHE_NAME).map(key => caches.delete(key))))
-  );
-  self.clients.claim();
+  event.waitUntil((async () => {
+    const keys = await caches.keys();
+    await Promise.all(keys.filter(key => CACHE_PREFIXES.some(prefix => key.startsWith(prefix)) && key !== CACHE_NAME).map(key => caches.delete(key)));
+    await self.clients.claim();
+  })());
 });
 
 self.addEventListener('fetch', event => {
   const request = event.request;
-  if (request.method !== 'GET' || new URL(request.url).origin !== self.location.origin) return;
+  if (request.method !== 'GET') return;
+  const url = new URL(request.url);
+  if (url.origin !== self.location.origin || !url.pathname.startsWith(new URL(self.registration.scope).pathname)) return;
 
-  if (request.mode === 'navigate') {
-    event.respondWith(fetch(request).then(response => {
-      const copy = response.clone();
-      caches.open(CACHE_NAME).then(cache => cache.put('./index.html', copy));
-      return response;
-    }).catch(() => caches.match('./index.html')));
-    return;
-  }
-
-  event.respondWith(caches.match(request).then(cached => cached || fetch(request).then(response => {
-    if (response.ok) {
-      const copy = response.clone();
-      caches.open(CACHE_NAME).then(cache => cache.put(request, copy));
+  const networkFirst = request.mode === 'navigate' || request.destination !== 'image';
+  event.respondWith((async () => {
+    const cache = await caches.open(CACHE_NAME);
+    if (networkFirst) {
+      try {
+        const response = await fetch(request, { cache: 'no-store' });
+        if (response.ok) {
+          await cache.put(request, response.clone());
+          if (request.mode === 'navigate') await cache.put('./index.html', response.clone());
+        }
+        return response;
+      } catch (error) {
+        const cached = await cache.match(request);
+        if (cached) return cached;
+        if (request.mode === 'navigate') {
+          const fallback = await cache.match('./index.html');
+          if (fallback) return fallback;
+        }
+        throw error;
+      }
     }
+    const cached = await cache.match(request);
+    if (cached) return cached;
+    const response = await fetch(request);
+    if (response.ok) await cache.put(request, response.clone());
     return response;
-  })));
+  })());
 });
-
-
-
-
-
-
-
-
