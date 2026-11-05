@@ -1,0 +1,20 @@
+SPIDER STATS — ACCOUNT CONNECTION DISABLED
+
+Replace repository contents with this folder contents, commit and push.
+The connect.html page is informational. Login and consent collection are off.
+The older public-profile sharing preview has been removed.
+No Riot player data is collected by this account page.
+
+A future private-only tracker must first be confirmed with Riot. Riot current
+policy includes opt-in and public-sharing language. Do not claim approval.
+The earlier application description that proposed public profiles is outdated.
+
+Before real login: secure backend, Riot approval and RSO credentials, private
+authorization checks for every request, secure session cookies, OAuth state,
+minimal encrypted token storage, rate limits, explicit consent, deletion and
+retention controls, legal/privacy review and independent security testing.
+
+Hosting still receives normal browser requests. Manual notes and inventory
+are browser-local, not encrypted private accounts. Never put keys, passwords
+or player exports in GitHub. This is not a security certification or legal
+clearance and does not guarantee absence of bugs or legal claims.

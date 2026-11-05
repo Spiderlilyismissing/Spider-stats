@@ -25,7 +25,7 @@ const patchData = [
   }
 ];
 let selectedPatch=patchData[0];let activePage='home';let selectedMap=null;
-function readTracker(){try{const value=JSON.parse(localStorage.getItem('after-tracker')||'[]');return Array.isArray(value)?value.filter(x=>x&&typeof x==='object'):[]}catch{return[]}}
+function readTracker(){try{const value=JSON.parse(localStorage.getItem('after-tracker')||'[]');return Array.isArray(value)?value.filter(x=>x&&typeof x==='object').map(x=>({map:String(x.map??'').slice(0,120),date:String(x.date??'').slice(0,80),...Object.fromEntries(['kills','deaths','assists','damage','aces'].map(k=>[k,Number.isFinite(Number(x[k]))?Math.min(1000000,Math.max(0,Math.trunc(Number(x[k])))):0]))})):[]}catch{return[]}}
 function saveTracker(){try{localStorage.setItem('after-tracker',JSON.stringify(trackerEntries));return true}catch{return false}}
 let trackerEntries=readTracker();
 const content=document.querySelector('#pageContent');
