@@ -1,5 +1,5 @@
 /* Spider Stats: network-first app files, cached images and offline fallback. */
-const CACHE_NAME = 'spider-stats-v41';
+const CACHE_NAME = 'spider-stats-redesign-51';
 const CACHE_PREFIXES = ['spider-shell-', 'spider-stats-'];
 const OFFLINE_FILES = ['./index.html', './styles.css', './game-data.js', './rank-art.js', './app.js', './artwork.js', './spider-features.js', './collection-catalog.json', './artwork-manifest.json', './manifest.webmanifest', './icon.svg', './spider-logo.svg'];
 
